@@ -1,0 +1,32 @@
+body {
+  background-color: #f3f4f6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+#calendar {
+  background-color: #fff;
+  border: 2px solid #d1d5db;
+  transition: border 0.3s ease-in-out;
+}
+
+#calendar:focus {
+  border-color: #2563eb;
+}
+
+.shadow {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+button[type="submit"] {
+  transition: background-color 0.3s ease;
+}
+
+#confirmation {
+  font-weight: 600;
+}
